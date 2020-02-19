@@ -1,0 +1,97 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+//#include <SDL2/SDL_render.h>
+
+#include "Map.h"
+#include "TextureManager.h"
+
+int lvl1[20][25] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,2,2,1,2,2,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0},
+    {0,0,0,2,2,2,2,2,2,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0},
+    {0,0,0,0,1,2,2,1,0,0,0,0,0,2,2,1,2,2,0,0,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}    
+};
+
+Map::Map()
+{
+    water = TextureManager::LoadTexture("assets/water.png");
+    grass = TextureManager::LoadTexture("assets/grass.png");
+    dirt = TextureManager::LoadTexture("assets/dirt.png");
+    
+    LoadMap(lvl1);
+    
+    src.x = dest.x = 0;
+    src.y = dest.y = 0;
+    src.h = dest.h = 32;
+    src.w = dest.w = 32;
+    
+}
+
+Map::~Map()
+{
+    SDL_DestroyTexture(water);
+    SDL_DestroyTexture(grass);
+    SDL_DestroyTexture(dirt);
+}
+
+void Map::LoadMap(int arr[20][25])
+{
+    for(int row = 0; row < 20; row++)
+    {
+        for(int col = 0; col < 25; col++)
+        {
+            map[row][col] = arr[row][col];
+        }
+    }
+}
+
+void Map::DrawMap()
+{
+    int type = 0;
+    
+    for(int row = 0; row < 20; row++)
+    {
+        for(int col = 0; col < 25; col++)
+        {
+            type = map[row][col];
+            
+            dest.x = col * 32;
+            dest.y = row * 32;
+            
+            switch(type)
+            {
+                case 0:
+                    TextureManager::Draw(water, src, dest);
+                    break;
+                case 1:
+                    TextureManager::Draw(grass, src, dest);
+                    break;
+                case 2:
+                    TextureManager::Draw(dirt, src, dest);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+}

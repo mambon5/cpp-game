@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.cpp</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.cpp</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.cpp</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.cpp</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/TransformComponent.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/main.cpp</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/KeyboardController.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Components.h</file>
+            <file>file:/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.h</file>
+        </group>
+    </open-files>
+</project-private>

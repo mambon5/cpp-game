@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="2D_Game" projectFiles="true">
+      <logicalFolder name="f1" displayName="ECS" projectFiles="true">
+        <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/ColliderComponent.h</itemPath>
+        <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Components.h</itemPath>
+        <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS.h</itemPath>
+        <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/KeyboardController.h</itemPath>
+        <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/SpriteComponent.h</itemPath>
+        <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/TransformComponent.h</itemPath>
+      </logicalFolder>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Collision.cpp</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Collision.h</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.cpp</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.h</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.cpp</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.h</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Map.cpp</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Map.h</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.cpp</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.h</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.cpp</itemPath>
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="assets" projectFiles="true">
+      <itemPath>/home/jordi/development/NetBeansProjects/2D_GameEngine/assets/images.png</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game</Elem>
+    <Elem>/home/jordi/development/NetBeansProjects/2D_GameEngine/assets</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>/home/jordi/development/SDL2/include</pElem>
+            <pElem>/home/jordi/development/SDL2_image-2.0.1/include</pElem>
+            <pElem>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS</pElem>
+            <pElem>/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/home/jordi/development/SDL2/lib/x64</pElem>
+            <pElem>/home/jordi/development/SDL2_image-2.0.1/lib/x64</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>SDL2</linkerLibLibItem>
+            <linkerLibLibItem>SDL2main</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_image</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Collision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Collision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Components.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/ColliderComponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/KeyboardController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/SpriteComponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/TransformComponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Map.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/assets/images.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Collision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Collision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Components.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/ColliderComponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/KeyboardController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/SpriteComponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/ECS/TransformComponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Game.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/GameObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Map.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/TextureManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/2D_Game/Vector2D.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jordi/development/NetBeansProjects/2D_GameEngine/assets/images.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
